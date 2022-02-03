@@ -1,0 +1,250 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+
+
+
+body{
+    background-color: 	#d2dcf7;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4F4F4F;
+}
+
+header{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    background-image: url(./img/imgnprontas/nuvens.png);
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.header-menu{
+    margin-left: 30%;
+    width: 50%;
+}
+
+
+.header-nav
+
+.header-menu li a{
+    color: #4F4F4F;
+    margin-right: 30px;
+    display: block;
+    padding: 10px;
+}
+
+.header-menu li a:hover{
+    background-color: rgb(169, 171, 233);
+    border-radius: 10px;
+    color: #130542;
+}
+
+
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(98, 85, 173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.container, .container3{
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 1 350px;
+    justify-content: center;
+
+}
+.container-img{
+    width: 45%;
+    flex-wrap: wrap;
+    /*min-width: 350px;*/
+    display: flex;
+}
+.container-img img{
+    width: 80%;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    border-radius: 30px;
+    /*min-width: 350px;*/
+    margin: 0 auto;
+    
+}
+/*.img-direita img{
+    width: 50%;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    border-radius: 30px;
+    min-width: 350px;
+    margin: 0 auto;
+}*/
+
+.container-p{
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 350px;
+        
+}
+.container-p1{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 350px;
+        
+}
+.container-p p{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.container3{
+    max-width: 90%;
+}
+.container-direita-img{
+    max-width: 1200px
+}
+.container-direita-img .img-direita{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.img-direita{
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+footer{
+  border-top: 1px solid rgb(86, 163, 250);
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-image: url(/img/imgnprontas/nuvens.png);
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer-nav{
+    display: flex;
+    margin: 0 auto;
+}
+
+footer .footer-ul{
+    margin: 0 auto;
+}
+
+footer .footer-link{
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 05px;
+}
+
+footer .footer-link a:hover{
+    padding: 10px;
+    border-radius: 10px 0;
+    background-color: rgb(169, 171, 233, 0.6);
+}
+
+@media screen and (max-width: 720px) {
+
+header{
+    padding: 15px 0;
+}
+
+    .header-logo{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    width: 100px;
+}
+
+.header-logo img{
+    width: 100px;
+    
+}
+nav .header-menu{
+    margin-right: 10px;
+}
+.header-menu li a{
+    margin-left: 5px;
+    margin-right: 2px;
+    padding: 5px;
+
+}
+h1{
+    width: 70%;
+    color: rgb(98, 85, 173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.container-img{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+
+
+.container-img img{
+    min-width: 300px;
+    width: 90%;
+}
+.container-p, .container-p1{
+    width: 100%;
+    padding: 0;
+}
+
+.container-p p{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+}

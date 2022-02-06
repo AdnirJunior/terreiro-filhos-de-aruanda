@@ -17,39 +17,7 @@ body{
     color: #4F4F4F;
 }
 
-header{
-    display: flex;
-    max-width: 100%;
-    justify-content: space-between;
-    padding: 30px;
-    background-image: url(./img/guias/esquerda/cemiteryfantasy.jpg);
-    align-items: center;
-    border-radius: 10px;
-    margin: 0 auto;
-    
-    
-}
 
-.header-logo{
-    display: flex;
-    padding: 0px 0px 0px 20px;
-    width: 50%;
-}
-
-.header-menu li a{
-    color: #4F4F4F;
-    margin-right: 30px;
-    display: block;
-    padding: 20px;
-    background-color: rgb(250, 250, 246);
-    border-radius: 10px;
-}
-
-.header-menu li a:hover{
-    background-color: rgb(169, 171, 233);
-    border-radius: 20px 0px;
-    color: #e63b3b;
-}
 
 
 footer{
@@ -86,13 +54,16 @@ footer{
   }
 
 @media screen and (max-width: 720px) {
-    ul li{
-        font-size: small;
-    }
 
     header{
-        min-width: 90%;
-        padding: 20px;
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+        padding: 30px;
+        background-image: url(./img/guias/esquerda/cemiteryfantasy.jpg);
+        align-items: center;
+        border-radius: 10px;
+        margin: 0 auto;     
     }
 
     .header-logo{
@@ -102,6 +73,7 @@ footer{
 
     ul li{
         padding-right: 15px;
+        font-size: small;
     }
     .cont1{
         min-width: 90%;
@@ -140,9 +112,46 @@ footer{
     .cont1-img{
         display: none;
     }
+    #div-last{
+        margin-bottom: 100px;
+    }
+    footer{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 720px) {
+    header{
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+        padding: 30px;
+        background-image: url(./img/guias/esquerda/cemiteryfantasy.jpg);
+        align-items: center;
+        border-radius: 10px;
+        margin: 0 auto;     
+    }
+    
+    .header-logo{
+        display: flex;
+        padding: 0px 0px 0px 20px;
+        width: 50%;
+    }
+    
+    .header-menu li a{
+        color: #4F4F4F;
+        margin-right: 30px;
+        display: block;
+        padding: 20px;
+        background-color: rgb(250, 250, 246);
+        border-radius: 10px;
+    }
+    
+    .header-menu li a:hover{
+        background-color: rgb(169, 171, 233);
+        border-radius: 20px 0px;
+        color: #e63b3b;
+    }
     
     .header-logo{
         width: 200px;

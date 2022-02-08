@@ -54,7 +54,9 @@ ul li{
 }
 
 @media screen and (min-width: 720px) {
-    
+    header{
+        width: 97%;
+    }
     .cont1{
         width: 95%;
         margin: 0 auto;

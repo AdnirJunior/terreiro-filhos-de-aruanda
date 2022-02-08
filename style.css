@@ -285,7 +285,7 @@ body{
     height: 40px;
     position: fixed;
     width: 100%;
-    background-image: url(/img/imgnprontas/nuvens.png);
+    background-image: url(./img/imgnprontas/nuvens.png);
     display: flex;
     justify-content: space-around;
     }

@@ -19,7 +19,7 @@ body{
 
 
 .img-direita{
-    width: 90%;
+    width: 100%;
     margin-left: 20px;
     border-radius: 25px;
 }
@@ -247,13 +247,17 @@ body{
         text-align: center;
         align-items: center;
         padding: 20px;
-        min-width: 350px;
-            
+        min-width: 350px;            
     }
+
+    .container-p1 p{
+        text-align: left;
+    }
+
     .container-p p{
         display: flex;
         width: 100%;
-        text-align: center;
+        text-align: left;
         align-items: center;
         justify-content: center;
     }
@@ -282,10 +286,11 @@ body{
     border-top: 1px solid rgb(86, 163, 250);
     bottom: 0;
     left: 0;
-    height: 40px;
+    height: 60px;
     position: fixed;
     width: 100%;
     background-image: url(./img/imgnprontas/nuvens.png);
+    opacity: 0.75;
     display: flex;
     justify-content: space-around;
     }
@@ -313,7 +318,7 @@ body{
     footer .footer-link a:hover{
         padding: 10px;
         border-radius: 10px 0;
-        background-color: rgb(169, 171, 233, 0.6);
+        background-color: rgb(226, 227, 238, 0.6);
     }
 
 
